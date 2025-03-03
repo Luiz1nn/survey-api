@@ -4,13 +4,16 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "bun src/main/server.ts"
+    "dev": "bun src/main/server.ts",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
     "@types/bun": "latest",
     "chalk": "^5.4.1",
     "eslint": "^9.21.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3",
     "typescript": "^5",
     "typescript-eslint": "^8.25.0"
   },
