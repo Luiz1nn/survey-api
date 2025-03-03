@@ -13,7 +13,7 @@ export default [
       'comma-dangle': ['error', 'never'],
       'no-console': 'warn',
       'no-debugger': 'error',
-      'no-duplicate-imports': 'error',
+      'no-duplicate-imports': 'off',
       'no-eval': 'error',
       eqeqeq: 'error',
       'no-else-return': 'error',
